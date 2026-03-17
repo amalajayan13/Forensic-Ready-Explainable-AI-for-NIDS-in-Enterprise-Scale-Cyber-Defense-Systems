@@ -1,0 +1,19 @@
+{
+  "best_model": "rf",
+  "shap_sample_size": 300,
+  "transformed_feature_count": 154,
+  "class_count": 9,
+  "class_names": [
+    "backdoor",
+    "ddos",
+    "dos",
+    "injection",
+    "normal",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ],
+  "representative_class_plot": "xss",
+  "shap_time_seconds": 107.92542710000271
+}
