@@ -1,0 +1,21 @@
+{
+  "dataset_path": "../datasets/ton-iot-train_test_network.csv",
+  "loaded_at_utc": "2026-03-12T19:20:07.866136Z",
+  "rows": 211043,
+  "columns": 44,
+  "memory_mb": 350.2364,
+  "load_time_seconds": 0.6744,
+  "duplicate_rows": 20569,
+  "duplicate_percent": 9.7464,
+  "numeric_columns": 17,
+  "non_numeric_columns": 27,
+  "candidate_label_columns": [
+    "dns_qclass",
+    "dns_qtype",
+    "http_orig_mime_types",
+    "http_resp_mime_types",
+    "label",
+    "type"
+  ],
+  "columns_with_missing_values": 0
+}
