@@ -1,0 +1,48 @@
+{
+  "target_column": "type",
+  "binary_helper_column": "label",
+  "label_mapping": {
+    "backdoor": 0,
+    "ddos": 1,
+    "dos": 2,
+    "injection": 3,
+    "normal": 4,
+    "password": 5,
+    "ransomware": 6,
+    "scanning": 7,
+    "xss": 8
+  },
+  "rare_classes_removed": [
+    "mitm"
+  ],
+  "rows_after_deduplication": 190474,
+  "rows_after_rare_class_filter": 189433,
+  "n_features_raw": 40,
+  "numeric_feature_count": 16,
+  "categorical_feature_count": 24,
+  "high_cardinality_categorical_columns": [
+    "dns_query",
+    "http_uri"
+  ],
+  "context_columns": [
+    "src_ip",
+    "dst_ip",
+    "src_port",
+    "dst_port",
+    "proto",
+    "service",
+    "conn_state"
+  ],
+  "train_shape": [
+    113659,
+    40
+  ],
+  "val_shape": [
+    37887,
+    40
+  ],
+  "test_shape": [
+    37887,
+    40
+  ]
+}
