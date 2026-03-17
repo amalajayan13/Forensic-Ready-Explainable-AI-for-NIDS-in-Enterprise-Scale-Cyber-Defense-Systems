@@ -1,0 +1,77 @@
+{
+  "case_id": "CASE-20260312-195546",
+  "logged_alerts": 500,
+  "timeline_windows": 20,
+  "classes_present": [
+    "backdoor",
+    "ddos",
+    "dos",
+    "injection",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ],
+  "top_transition_edges": [
+    {
+      "from_class": "dos",
+      "to_class": "injection",
+      "count": 17
+    },
+    {
+      "from_class": "scanning",
+      "to_class": "scanning",
+      "count": 14
+    },
+    {
+      "from_class": "dos",
+      "to_class": "scanning",
+      "count": 14
+    },
+    {
+      "from_class": "ransomware",
+      "to_class": "dos",
+      "count": 12
+    },
+    {
+      "from_class": "injection",
+      "to_class": "ddos",
+      "count": 12
+    },
+    {
+      "from_class": "ddos",
+      "to_class": "ddos",
+      "count": 12
+    },
+    {
+      "from_class": "scanning",
+      "to_class": "password",
+      "count": 11
+    },
+    {
+      "from_class": "scanning",
+      "to_class": "dos",
+      "count": 11
+    },
+    {
+      "from_class": "dos",
+      "to_class": "dos",
+      "count": 11
+    },
+    {
+      "from_class": "ddos",
+      "to_class": "backdoor",
+      "count": 11
+    }
+  ],
+  "plot_files": [
+    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_class_activity.png",
+    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_class_activity.pdf",
+    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_stacked_class_activity.png",
+    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_stacked_class_activity.pdf",
+    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_cumulative_alerts.png",
+    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_cumulative_alerts.pdf",
+    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_class_transition_graph.png",
+    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_class_transition_graph.pdf"
+  ]
+}

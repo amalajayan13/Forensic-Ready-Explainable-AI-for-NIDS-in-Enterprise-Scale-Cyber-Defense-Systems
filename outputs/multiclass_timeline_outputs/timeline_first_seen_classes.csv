@@ -1,0 +1,9 @@
+prediction_name,first_seen_sequence
+scanning,1
+backdoor,2
+password,4
+xss,9
+dos,10
+ddos,14
+ransomware,20
+injection,22
