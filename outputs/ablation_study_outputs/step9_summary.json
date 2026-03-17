@@ -1,0 +1,35 @@
+{
+  "full_model_test_macro_f1": 0.9890575541806188,
+  "full_model_test_accuracy": 0.9903133000765434,
+  "scenarios": [
+    {
+      "scenario": "full_features",
+      "delta_test_acc": 0.0,
+      "delta_test_f1_macro": 0.0
+    },
+    {
+      "scenario": "remove_conn_state",
+      "delta_test_acc": -0.0006070683875735172,
+      "delta_test_f1_macro": -0.0006920517983860508
+    },
+    {
+      "scenario": "remove_volume_features",
+      "delta_test_acc": -0.011719059307942037,
+      "delta_test_f1_macro": -0.012812888328942007
+    },
+    {
+      "scenario": "remove_service_context",
+      "delta_test_acc": -0.011375933697574392,
+      "delta_test_f1_macro": -0.014819501117538048
+    },
+    {
+      "scenario": "remove_core_top_features",
+      "delta_test_acc": -0.20571700055427977,
+      "delta_test_f1_macro": -0.25202421974005884
+    }
+  ],
+  "plot_files": [
+    "ablation_study_outputs\\ablation_macro_f1_drop.png",
+    "ablation_study_outputs\\ablation_macro_f1_drop.pdf"
+  ]
+}
