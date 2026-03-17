@@ -1,0 +1,58 @@
+{
+  "case_id": "CASE-20260312-195546",
+  "evidence_graph_nodes": 528,
+  "evidence_graph_edges": 1000,
+  "host_graph_nodes": 28,
+  "host_graph_edges": 51,
+  "predicted_alert_count_logged": 500,
+  "class_distribution": [
+    {
+      "predicted_class": "dos",
+      "count": 79,
+      "percent": 15.8,
+      "mean_confidence": 1.0
+    },
+    {
+      "predicted_class": "scanning",
+      "count": 70,
+      "percent": 14.0,
+      "mean_confidence": 1.0
+    },
+    {
+      "predicted_class": "ddos",
+      "count": 67,
+      "percent": 13.4,
+      "mean_confidence": 1.0
+    },
+    {
+      "predicted_class": "injection",
+      "count": 67,
+      "percent": 13.4,
+      "mean_confidence": 1.0
+    },
+    {
+      "predicted_class": "backdoor",
+      "count": 66,
+      "percent": 13.2,
+      "mean_confidence": 1.0
+    },
+    {
+      "predicted_class": "password",
+      "count": 59,
+      "percent": 11.8,
+      "mean_confidence": 1.0
+    },
+    {
+      "predicted_class": "ransomware",
+      "count": 52,
+      "percent": 10.4,
+      "mean_confidence": 1.0
+    },
+    {
+      "predicted_class": "xss",
+      "count": 40,
+      "percent": 8.0,
+      "mean_confidence": 1.0
+    }
+  ]
+}

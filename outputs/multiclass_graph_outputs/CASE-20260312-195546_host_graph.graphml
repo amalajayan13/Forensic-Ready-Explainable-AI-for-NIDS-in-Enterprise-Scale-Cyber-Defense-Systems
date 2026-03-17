@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="class_counts" attr.type="string" />
+  <key id="d2" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="kind" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="192.168.1.32">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.133">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.193">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.33">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.37">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.31">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.30">
+      <data key="d0">host</data>
+    </node>
+    <node id="176.28.50.165">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.49">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.152">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.190">
+      <data key="d0">host</data>
+    </node>
+    <node id="18.194.169.124">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.184">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.186">
+      <data key="d0">host</data>
+    </node>
+    <node id="52.28.231.150">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.194">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.1">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.46">
+      <data key="d0">host</data>
+    </node>
+    <node id="18.184.104.180">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.195">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.250">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.39">
+      <data key="d0">host</data>
+    </node>
+    <node id="52.59.177.21">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.169">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.36">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.79">
+      <data key="d0">host</data>
+    </node>
+    <node id="192.168.1.103">
+      <data key="d0">host</data>
+    </node>
+    <node id="18.195.161.8">
+      <data key="d0">host</data>
+    </node>
+    <edge source="192.168.1.32" target="192.168.1.133">
+      <data key="d1">communicates</data>
+      <data key="d2">7</data>
+      <data key="d3">{"scanning": 7}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.152">
+      <data key="d1">communicates</data>
+      <data key="d2">10</data>
+      <data key="d3">{"scanning": 2, "xss": 8}</data>
+    </edge>
+    <edge source="192.168.1.32" target="18.194.169.124">
+      <data key="d1">communicates</data>
+      <data key="d2">6</data>
+      <data key="d3">{"xss": 6}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.49">
+      <data key="d1">communicates</data>
+      <data key="d2">7</data>
+      <data key="d3">{"scanning": 7}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.186">
+      <data key="d1">communicates</data>
+      <data key="d2">3</data>
+      <data key="d3">{"scanning": 3}</data>
+    </edge>
+    <edge source="192.168.1.32" target="52.28.231.150">
+      <data key="d1">communicates</data>
+      <data key="d2">11</data>
+      <data key="d3">{"xss": 11}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.250">
+      <data key="d1">communicates</data>
+      <data key="d2">4</data>
+      <data key="d3">{"scanning": 4}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.195">
+      <data key="d1">communicates</data>
+      <data key="d2">2</data>
+      <data key="d3">{"xss": 2}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.169">
+      <data key="d1">communicates</data>
+      <data key="d2">4</data>
+      <data key="d3">{"scanning": 4}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.190">
+      <data key="d1">communicates</data>
+      <data key="d2">3</data>
+      <data key="d3">{"xss": 2, "scanning": 1}</data>
+    </edge>
+    <edge source="192.168.1.32" target="176.28.50.165">
+      <data key="d1">communicates</data>
+      <data key="d2">9</data>
+      <data key="d3">{"xss": 9}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.79">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"scanning": 1}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.103">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"scanning": 1}</data>
+    </edge>
+    <edge source="192.168.1.32" target="192.168.1.46">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"scanning": 1}</data>
+    </edge>
+    <edge source="192.168.1.193" target="192.168.1.33">
+      <data key="d1">communicates</data>
+      <data key="d2">29</data>
+      <data key="d3">{"backdoor": 26, "ransomware": 3}</data>
+    </edge>
+    <edge source="192.168.1.193" target="192.168.1.37">
+      <data key="d1">communicates</data>
+      <data key="d2">39</data>
+      <data key="d3">{"backdoor": 39}</data>
+    </edge>
+    <edge source="192.168.1.33" target="192.168.1.193">
+      <data key="d1">communicates</data>
+      <data key="d2">26</data>
+      <data key="d3">{"ransomware": 26}</data>
+    </edge>
+    <edge source="192.168.1.37" target="192.168.1.193">
+      <data key="d1">communicates</data>
+      <data key="d2">24</data>
+      <data key="d3">{"ransomware": 23, "backdoor": 1}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.193">
+      <data key="d1">communicates</data>
+      <data key="d2">5</data>
+      <data key="d3">{"password": 5}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.152">
+      <data key="d1">communicates</data>
+      <data key="d2">28</data>
+      <data key="d3">{"password": 10, "injection": 17, "ddos": 1}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.190">
+      <data key="d1">communicates</data>
+      <data key="d2">20</data>
+      <data key="d3">{"password": 9, "injection": 11}</data>
+    </edge>
+    <edge source="192.168.1.31" target="18.184.104.180">
+      <data key="d1">communicates</data>
+      <data key="d2">4</data>
+      <data key="d3">{"injection": 4}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.195">
+      <data key="d1">communicates</data>
+      <data key="d2">15</data>
+      <data key="d3">{"injection": 11, "password": 4}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.49">
+      <data key="d1">communicates</data>
+      <data key="d2">6</data>
+      <data key="d3">{"scanning": 6}</data>
+    </edge>
+    <edge source="192.168.1.31" target="52.59.177.21">
+      <data key="d1">communicates</data>
+      <data key="d2">7</data>
+      <data key="d3">{"injection": 7}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.133">
+      <data key="d1">communicates</data>
+      <data key="d2">3</data>
+      <data key="d3">{"scanning": 3}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.1">
+      <data key="d1">communicates</data>
+      <data key="d2">5</data>
+      <data key="d3">{"dos": 2, "ddos": 3}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.184">
+      <data key="d1">communicates</data>
+      <data key="d2">4</data>
+      <data key="d3">{"ddos": 3, "password": 1}</data>
+    </edge>
+    <edge source="192.168.1.31" target="176.28.50.165">
+      <data key="d1">communicates</data>
+      <data key="d2">4</data>
+      <data key="d3">{"password": 2, "xss": 1, "injection": 1}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.194">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"password": 1}</data>
+    </edge>
+    <edge source="192.168.1.31" target="192.168.1.186">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"scanning": 1}</data>
+    </edge>
+    <edge source="192.168.1.30" target="176.28.50.165">
+      <data key="d1">communicates</data>
+      <data key="d2">6</data>
+      <data key="d3">{"password": 1, "injection": 1, "dos": 4}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.49">
+      <data key="d1">communicates</data>
+      <data key="d2">9</data>
+      <data key="d3">{"scanning": 9}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.190">
+      <data key="d1">communicates</data>
+      <data key="d2">39</data>
+      <data key="d3">{"password": 9, "dos": 13, "ddos": 13, "injection": 4}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.152">
+      <data key="d1">communicates</data>
+      <data key="d2">29</data>
+      <data key="d3">{"dos": 20, "password": 5, "injection": 3, "scanning": 1}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.184">
+      <data key="d1">communicates</data>
+      <data key="d2">33</data>
+      <data key="d3">{"ddos": 23, "dos": 8, "password": 2}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.194">
+      <data key="d1">communicates</data>
+      <data key="d2">12</data>
+      <data key="d3">{"dos": 8, "ddos": 4}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.1">
+      <data key="d1">communicates</data>
+      <data key="d2">22</data>
+      <data key="d3">{"dos": 3, "ddos": 19}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.46">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"scanning": 1}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.186">
+      <data key="d1">communicates</data>
+      <data key="d2">6</data>
+      <data key="d3">{"scanning": 6}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.250">
+      <data key="d1">communicates</data>
+      <data key="d2">4</data>
+      <data key="d3">{"scanning": 4}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.193">
+      <data key="d1">communicates</data>
+      <data key="d2">22</data>
+      <data key="d3">{"dos": 19, "password": 3}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.133">
+      <data key="d1">communicates</data>
+      <data key="d2">2</data>
+      <data key="d3">{"scanning": 2}</data>
+    </edge>
+    <edge source="192.168.1.30" target="52.59.177.21">
+      <data key="d1">communicates</data>
+      <data key="d2">2</data>
+      <data key="d3">{"injection": 2}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.195">
+      <data key="d1">communicates</data>
+      <data key="d2">9</data>
+      <data key="d3">{"password": 7, "scanning": 1, "ddos": 1}</data>
+    </edge>
+    <edge source="192.168.1.30" target="18.184.104.180">
+      <data key="d1">communicates</data>
+      <data key="d2">6</data>
+      <data key="d3">{"injection": 6}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.169">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"scanning": 1}</data>
+    </edge>
+    <edge source="192.168.1.30" target="192.168.1.103">
+      <data key="d1">communicates</data>
+      <data key="d2">4</data>
+      <data key="d3">{"scanning": 4}</data>
+    </edge>
+    <edge source="192.168.1.39" target="192.168.1.152">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"dos": 1}</data>
+    </edge>
+    <edge source="192.168.1.39" target="18.195.161.8">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"dos": 1}</data>
+    </edge>
+    <edge source="192.168.1.36" target="192.168.1.190">
+      <data key="d1">communicates</data>
+      <data key="d2">1</data>
+      <data key="d3">{"xss": 1}</data>
+    </edge>
+  </graph>
+</graphml>
