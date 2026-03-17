@@ -1,0 +1,31 @@
+{
+  "candidate_models": [
+    "logreg",
+    "rf",
+    "extratrees"
+  ],
+  "best_model": "rf",
+  "selection_rule": [
+    "highest validation macro F1",
+    "then highest validation weighted F1",
+    "then highest validation OVR macro ROC-AUC",
+    "then lowest latency"
+  ],
+  "refit_time_seconds": 19.586929899996903,
+  "train_shape": [
+    113659,
+    40
+  ],
+  "val_shape": [
+    37887,
+    40
+  ],
+  "trainval_shape": [
+    151546,
+    40
+  ],
+  "test_shape": [
+    37887,
+    40
+  ]
+}
