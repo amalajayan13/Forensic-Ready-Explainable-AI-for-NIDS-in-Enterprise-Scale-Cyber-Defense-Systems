@@ -1,0 +1,23 @@
+{
+  "rows": 190474,
+  "binary_distribution": {
+    "0": 42040,
+    "1": 148434
+  },
+  "n_unique_host_pairs": 1026,
+  "train_shape": [
+    124684,
+    40
+  ],
+  "val_shape": [
+    36174,
+    40
+  ],
+  "test_shape": [
+    29616,
+    40
+  ],
+  "train_val_overlap": 0,
+  "train_test_overlap": 0,
+  "val_test_overlap": 0
+}
