@@ -1,0 +1,18 @@
+{
+  "best_model": "lightgbm",
+  "per_class_cap": 75,
+  "per_pair_cap": 10,
+  "final_cap": 500,
+  "selected_alert_count": 500,
+  "selected_class_distribution": {
+    "scanning": 161,
+    "backdoor": 85,
+    "dos": 83,
+    "password": 82,
+    "ransomware": 75,
+    "injection": 14
+  },
+  "unique_hosts": 21,
+  "unique_host_pairs": 32,
+  "selection_file": "forensic_outputs_multiclass\\diversified_graph_alert_selection.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "best_model": "lightgbm",
+  "case_id_diversified": "CASE-20260330-153425-DIVERSIFIED",
+  "evidence_log_diversified_path": "forensic_outputs_multiclass\\CASE-20260330-153425-DIVERSIFIED_evidence_multiclass.jsonl",
+  "hash_algorithm": "SHA-256",
+  "selected_alerts_for_diversified_log": 500,
+  "prediction_runtime_seconds": 1.6043306000065058,
+  "per_alert_shap_runtime_seconds": 2.436898200016003,
+  "hash_chain_verified": true,
+  "first_bad_record": null
+}
