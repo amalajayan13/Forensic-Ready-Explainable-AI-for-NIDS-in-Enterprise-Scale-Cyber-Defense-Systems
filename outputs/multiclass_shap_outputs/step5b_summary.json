@@ -1,5 +1,5 @@
 {
-  "best_model": "rf",
+  "best_model": "lightgbm",
   "shap_sample_size": 300,
   "transformed_feature_count": 154,
   "class_count": 9,
@@ -15,5 +15,5 @@
     "xss"
   ],
   "representative_class_plot": "xss",
-  "shap_time_seconds": 107.92542710000271
+  "shap_time_seconds": 3.070717499998864
 }
