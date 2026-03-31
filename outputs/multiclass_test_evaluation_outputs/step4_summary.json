@@ -1,5 +1,5 @@
 {
-  "best_model": "rf",
+  "best_model": "lightgbm",
   "test_shape": [
     37887,
     40
@@ -16,16 +16,16 @@
     "xss"
   ],
   "best_model_test_metrics": {
-    "accuracy": 0.9904452714651464,
-    "f1_macro": 0.9892284695511359,
-    "f1_weighted": 0.990449810612322,
-    "precision_macro": 0.989088843640644,
-    "recall_macro": 0.9893884388590188,
-    "roc_auc_ovr_macro": 0.99955186447208,
-    "roc_auc_ovr_weighted": 0.9995898495478497,
-    "top2_accuracy": 0.9971758122838968,
-    "top3_accuracy": 0.9990762002797794,
-    "pred_ms_per_sample": 0.014155678728836251,
-    "proba_ms_per_sample": 0.012430065721693645
+    "accuracy": 0.9916858025180141,
+    "f1_macro": 0.9905879864189511,
+    "f1_weighted": 0.9916914034189124,
+    "precision_macro": 0.9903302654741473,
+    "recall_macro": 0.9908979202451058,
+    "roc_auc_ovr_macro": 0.9999154005952123,
+    "roc_auc_ovr_weighted": 0.9999262252064707,
+    "top2_accuracy": 0.9980468234486763,
+    "top3_accuracy": 0.9996040858341911,
+    "pred_ms_per_sample": 0.03618937102542825,
+    "proba_ms_per_sample": 0.03448007759925317
   }
 }

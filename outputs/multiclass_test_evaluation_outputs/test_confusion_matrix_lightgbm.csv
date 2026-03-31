@@ -1,0 +1,10 @@
+,pred_backdoor,pred_ddos,pred_dos,pred_injection,pred_normal,pred_password,pred_ransomware,pred_scanning,pred_xss
+true_backdoor,3741,0,1,0,0,0,0,0,0
+true_ddos,0,3941,0,18,3,1,1,0,35
+true_dos,0,2,3764,3,2,7,0,21,0
+true_injection,0,19,3,3871,2,1,0,16,81
+true_normal,0,0,3,0,8400,3,0,0,2
+true_password,0,2,15,1,1,3946,0,5,2
+true_ransomware,0,2,0,0,0,0,2945,0,0
+true_scanning,0,0,12,1,2,4,1,3980,0
+true_xss,0,7,0,36,0,0,0,0,2984
