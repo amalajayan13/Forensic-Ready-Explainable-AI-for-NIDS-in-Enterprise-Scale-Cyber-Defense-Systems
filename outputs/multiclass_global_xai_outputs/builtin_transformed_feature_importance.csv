@@ -1,155 +1,155 @@
 feature,importance
-src_ip_bytes__log1p,0.14840103244721897
-src_port__scaled,0.1098736319078579
-dst_port__scaled,0.10240429243116175
-duration__log1p,0.09414941352323758
-src_bytes__log1p,0.061146449503718385
-dst_ip_bytes__log1p,0.05517290560168492
-src_pkts__log1p,0.051644727911423736
-conn_state_REJ,0.04303592370602318
-dst_pkts__log1p,0.04195456114562355
-conn_state_S0,0.035173402942148026
-dst_bytes__log1p,0.03141877132896523
-conn_state_OTH,0.031153645663696005
-conn_state_SF,0.02257165142096317
-conn_state_S1,0.020064891899304937
-conn_state_SH,0.015586546238719788
-service_http,0.014608582355975978
-proto_tcp,0.010290413825899682
-proto_udp,0.010116015352857373
-service_MISSING_TOKEN,0.010112344768198177
-dns_rejected_F,0.009206713711700417
-dns_query__freq,0.008182593136568302
-conn_state_S3,0.008001767257721512
-dns_RA_F,0.006420539758248166
-dns_rejected_T,0.005652001421953925
-service_dns,0.005262001043521108
-dns_AA_MISSING_TOKEN,0.0039442956533835795
-dns_rcode__scaled,0.003942670560142898
-dns_RA_MISSING_TOKEN,0.0035039455366198363
-conn_state_RSTR,0.00320469540523331
-dns_qclass__scaled,0.0029079300223612205
-conn_state_RSTRH,0.002905251784190802
-dns_qtype__scaled,0.0028534499154811784
-dns_RD_MISSING_TOKEN,0.002738819262441775
-conn_state_SHR,0.002619048367461333
-dns_RA_T,0.002559857092039454
-dns_rejected_MISSING_TOKEN,0.0025012808375500027
-dns_RD_T,0.0019877920609856835
-dns_AA_F,0.001745345682983918
-conn_state_RSTO,0.00174231381670008
-service_ftp,0.0017142900678545768
-missed_bytes__log1p,0.001611474774992014
-dns_RD_F,0.0008935736531873462
-conn_state_S2,0.0006563139083906336
-service_ssl,0.0006519889330507176
-conn_state_RSTOS0,0.0002774572341333488
-service_smb,0.0002363267535158429
-ssl_resumed_MISSING_TOKEN,0.00022112603547547977
-dns_AA_T,0.00021109087278230418
-ssl_cipher_MISSING_TOKEN,0.000193224296105602
-ssl_version_MISSING_TOKEN,0.00018171028521350737
-ssl_established_MISSING_TOKEN,0.00018017712834392477
-weird_notice_MISSING_TOKEN,0.00012198343831899308
-ssl_resumed_F,0.00011045013052012174
-weird_notice_F,0.00010723811756418337
-service_dce_rpc,0.00010098165891693614
-proto_icmp,0.00010079680526355273
-service_gssapi,9.928869489357058e-05
-weird_name_MISSING_TOKEN,9.494418778712334e-05
-http_trans_depth_MISSING_TOKEN,9.121067763715001e-05
-http_status_code__scaled,8.937541081343757e-05
-ssl_established_F,8.560679918368324e-05
-http_version_1.1,8.529180165124827e-05
-http_user_agent_MISSING_TOKEN,8.304561779571244e-05
-ssl_version_TLSv12,8.299600885018015e-05
-http_uri__freq,8.02168072295294e-05
-http_response_body_len__log1p,7.377245657964577e-05
-http_version_MISSING_TOKEN,7.035186361636695e-05
-http_method_MISSING_TOKEN,6.185693682350626e-05
-ssl_cipher_TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,6.120011138689629e-05
-weird_name_active_connection_reuse,5.8253820530251084e-05
-http_trans_depth_1,4.369077688048364e-05
-http_method_GET,4.199174603398936e-05
-ssl_version_TLSv13,4.075539241140955e-05
-weird_name_data_before_established,4.066044894580786e-05
-ssl_cipher_TLS_AES_128_GCM_SHA256,3.796614677011033e-05
-service_smb;gssapi,3.6577831170171744e-05
-ssl_established_T,3.569182612784024e-05
-http_resp_mime_types_MISSING_TOKEN,3.2321770800188845e-05
-ssl_resumed_T,3.154276452113928e-05
-http_resp_mime_types_text/html,2.5983195681120194e-05
-http_user_agent_Ruby,2.197604761250922e-05
-http_resp_mime_types_application/xml,1.786321474344592e-05
-weird_name_DNS_RR_unknown_type,1.4851265447743019e-05
-http_user_agent_Microsoft-Delivery-Optimization/10.0,1.3374243816922905e-05
-http_user_agent_User-Agent: Microsoft-DLNA DLNADOC/1.50,9.74189230920369e-06
-weird_addl_MISSING_TOKEN,8.284491318353825e-06
-http_user_agent_Microsoft-Windows/10.0 UPnP/1.0,7.002520565676031e-06
-weird_name_possible_split_routing,6.701465623808219e-06
-http_resp_mime_types_image/png,6.061683210493769e-06
-weird_addl_46,5.5166106361536415e-06
-http_resp_mime_types_application/vnd.ms-cab-compressed,4.933623110009714e-06
-http_user_agent_Microsoft NCSI,3.790439848717438e-06
-http_resp_mime_types_text/plain,3.4835457134411914e-06
-http_user_agent_sqlmap/1.2#stable (http://sqlmap.org),3.2887752058064765e-06
-http_user_agent_MICROSOFT_DEVICE_METADATA_RETRIEVAL_CLIENT,3.263631281049718e-06
-http_trans_depth_2,3.2441889578135636e-06
-http_user_agent_DAFUPnP,3.19398637103271e-06
-http_user_agent_Windows-Update-Agent/10.0.10011.16384 Client-Protocol/1.91,3.0091228134572993e-06
-weird_name_inappropriate_FIN,2.9798229083956926e-06
-http_method_POST,2.734432455987207e-06
-http_resp_mime_types_application/ocsp-response,2.3033259068995365e-06
-http_method_HEAD,2.162757538990006e-06
-http_orig_mime_types_application/xml,2.0406473140463186e-06
-http_user_agent_hacking,1.925930591333729e-06
-http_user_agent_DataCha0s/2.0,1.7548460963154495e-06
-http_orig_mime_types_MISSING_TOKEN,1.6769429451978582e-06
-http_request_body_len__log1p,1.4812650098185724e-06
-ssl_cipher_TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,1.3793974969076224e-06
-http_user_agent_Comos/0.9_(robot@xyleme.com),1.2694360317992834e-06
-weird_name_bad_UDP_checksum,1.2625146628955356e-06
-http_user_agent_Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML; like Gecko) Chrome/53.0.2785.143 Safari/537.36,1.1918423377267927e-06
-http_user_agent_Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0,1.1762691491320544e-06
-http_user_agent_Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0,1.1405011783609478e-06
-ssl_cipher_TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,1.085475319588645e-06
-ssl_issuer_MISSING_TOKEN,1.0502667983749037e-06
-http_user_agent_Microsoft-CryptoAPI/10.0,1.031967167112057e-06
-weird_name_above_hole_data_without_any_acks,1.0277248053726447e-06
-ssl_version_TLSv10,1.0194549279203312e-06
-http_user_agent_Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0,1.007339336618423e-06
-ssl_issuer_CN=Mr Shepherd;OU=Security Shepherd Project;O=OWASP;L=Dublin;ST=Ireland;C=IE,9.96967057379824e-07
-weird_name_connection_originator_SYN_ack,9.176797517801507e-07
-http_user_agent_Mozilla/5.0 (iPhone; U; CPU iOS 2_0 like Mac OS X; en-us),8.110386768229048e-07
-http_user_agent_Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.6) Gecko/20040207 Firefox/0.8,7.530847311015027e-07
-http_user_agent_Microsoft-Windows/10.0 UPnP/1.0 Microsoft-DLNA DLNADOC/1.50,7.51370481218785e-07
-ssl_subject_MISSING_TOKEN,7.376108552511935e-07
-http_orig_mime_types_application/soap+xml,7.274474841108277e-07
-http_user_agent_Mozilla/1.22 (compatible; MSIE 10.0; Windows 3.1),6.805321129126563e-07
-http_resp_mime_types_image/jpeg,5.887064755426213e-07
-http_user_agent_Mozilla/4.08 [en] (WinNT; I ;Nav),4.867986270390046e-07
-weird_name_bad_TCP_checksum,4.329711541489195e-07
-http_user_agent_Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130401 Firefox/21.0,3.897004617405949e-07
-ssl_subject_CN=Mr Shepherd;OU=Security Shepherd Project;O=OWASP;L=Dublin;ST=Ireland;C=IE,3.882142631026771e-07
-http_user_agent_Microsoft BITS/7.8,3.3199952895268087e-07
-http_resp_mime_types_text/json,3.14260181855615e-07
-http_user_agent_Debian APT-HTTP/1.3 (1.7.4),3.047250631209635e-07
-ssl_subject_CN=*.wns.windows.com,2.808047346298288e-07
-http_user_agent_Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML; like Gecko) Chrome/53.0.2785.143 Safari/537.36,2.714760523898123e-07
-ssl_issuer_CN=Microsoft Secure Server CA 2011;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,2.6567515316442913e-07
-ssl_issuer_CN=Microsoft IT TLS CA 5;OU=Microsoft IT;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,2.3688858423288874e-07
-http_trans_depth_10,1.561272235407201e-07
-http_trans_depth_4,1.2845467789549997e-07
-ssl_cipher_TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,9.538270614256061e-08
-http_trans_depth_7,6.548463150683176e-08
-ssl_subject_CN=sls.update.microsoft.com;OU=DSP;O=Microsoft;L=Redmond;ST=WA;C=US,6.174805006035433e-08
-ssl_subject_CN=*.events.data.microsoft.com;OU=Microsoft;O=Microsoft Corporation;L=Redmond;ST=WA;C=US,6.030298256857498e-08
-http_user_agent_Microsoft-WNS/10.0,3.980630067155839e-08
-ssl_subject_CN=settings-win.data.microsoft.com;OU=WSE;O=Microsoft;L=Redmond;ST=WA;C=US,3.230355659542697e-08
-http_trans_depth_3,2.2191161708910962e-08
-weird_name_dnp3_corrupt_header_checksum,2.1786397828581957e-08
-ssl_issuer_CN=Microsoft Update Secure Server CA 2.1;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,2.166358687496891e-08
-http_trans_depth_5,1.5681437954770446e-08
-weird_addl_48,1.283366054114553e-08
-http_trans_depth_9,1.883914689106295e-09
-http_trans_depth_8,1.6768805247688972e-20
+src_port__scaled,16501
+duration__log1p,11930
+src_ip_bytes__log1p,6019
+dst_port__scaled,4728
+dst_ip_bytes__log1p,3860
+src_bytes__log1p,3663
+dst_bytes__log1p,3481
+dns_query__freq,3063
+src_pkts__log1p,2511
+dst_pkts__log1p,1788
+conn_state_SF,694
+conn_state_REJ,610
+conn_state_OTH,601
+conn_state_S0,521
+dns_qtype__scaled,475
+conn_state_S1,459
+missed_bytes__log1p,400
+dns_rcode__scaled,386
+proto_tcp,376
+conn_state_SH,364
+dns_RA_T,344
+conn_state_RSTR,344
+service_MISSING_TOKEN,336
+conn_state_S3,317
+conn_state_RSTOS0,270
+conn_state_RSTO,267
+service_http,237
+dns_rejected_T,235
+service_ssl,226
+conn_state_SHR,224
+dns_RA_F,199
+proto_udp,171
+conn_state_RSTRH,168
+dns_RD_F,146
+proto_icmp,144
+conn_state_S2,135
+dns_rejected_F,134
+ssl_cipher_MISSING_TOKEN,115
+service_dce_rpc,114
+dns_RD_T,102
+dns_AA_F,96
+service_dns,91
+http_status_code__scaled,77
+dns_qclass__scaled,70
+dns_RD_MISSING_TOKEN,61
+service_smb,58
+weird_name_MISSING_TOKEN,56
+http_resp_mime_types_text/html,47
+http_response_body_len__log1p,39
+http_trans_depth_MISSING_TOKEN,32
+ssl_version_MISSING_TOKEN,24
+dns_AA_T,21
+service_ftp,20
+http_version_MISSING_TOKEN,19
+ssl_version_TLSv12,18
+weird_name_active_connection_reuse,17
+http_user_agent_MISSING_TOKEN,14
+http_version_1.1,11
+dns_AA_MISSING_TOKEN,9
+http_method_GET,8
+http_uri__freq,7
+ssl_resumed_T,7
+weird_notice_F,5
+weird_notice_MISSING_TOKEN,5
+ssl_resumed_MISSING_TOKEN,4
+dns_rejected_MISSING_TOKEN,3
+http_user_agent_Ruby,2
+ssl_established_MISSING_TOKEN,2
+http_method_MISSING_TOKEN,1
+weird_name_data_before_established,1
+dns_RA_MISSING_TOKEN,1
+http_request_body_len__log1p,0
+http_user_agent_Comos/0.9_(robot@xyleme.com),0
+http_user_agent_DAFUPnP,0
+http_user_agent_Microsoft-Delivery-Optimization/10.0,0
+http_user_agent_Microsoft-CryptoAPI/10.0,0
+http_user_agent_Microsoft NCSI,0
+http_user_agent_Microsoft BITS/7.8,0
+http_user_agent_MICROSOFT_DEVICE_METADATA_RETRIEVAL_CLIENT,0
+http_user_agent_Debian APT-HTTP/1.3 (1.7.4),0
+http_user_agent_DataCha0s/2.0,0
+http_user_agent_Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML; like Gecko) Chrome/53.0.2785.143 Safari/537.36,0
+http_user_agent_Windows-Update-Agent/10.0.10011.16384 Client-Protocol/1.91,0
+http_user_agent_User-Agent: Microsoft-DLNA DLNADOC/1.50,0
+http_user_agent_Mozilla/5.0 (iPhone; U; CPU iOS 2_0 like Mac OS X; en-us),0
+http_user_agent_Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0,0
+http_user_agent_Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0,0
+http_user_agent_Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.6) Gecko/20040207 Firefox/0.8,0
+http_user_agent_Microsoft-Windows/10.0 UPnP/1.0 Microsoft-DLNA DLNADOC/1.50,0
+http_user_agent_Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130401 Firefox/21.0,0
+http_resp_mime_types_text/plain,0
+http_resp_mime_types_image/jpeg,0
+http_resp_mime_types_image/png,0
+http_resp_mime_types_text/json,0
+http_resp_mime_types_MISSING_TOKEN,0
+http_resp_mime_types_application/ocsp-response,0
+http_resp_mime_types_application/vnd.ms-cab-compressed,0
+http_resp_mime_types_application/xml,0
+http_trans_depth_9,0
+http_trans_depth_8,0
+http_trans_depth_7,0
+http_trans_depth_10,0
+http_trans_depth_2,0
+http_trans_depth_3,0
+http_trans_depth_4,0
+http_trans_depth_5,0
+weird_name_dnp3_corrupt_header_checksum,0
+weird_name_connection_originator_SYN_ack,0
+weird_name_bad_UDP_checksum,0
+weird_name_bad_TCP_checksum,0
+weird_name_above_hole_data_without_any_acks,0
+http_trans_depth_1,0
+weird_name_possible_split_routing,0
+weird_name_inappropriate_FIN,0
+http_user_agent_Mozilla/1.22 (compatible; MSIE 10.0; Windows 3.1),0
+http_user_agent_Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML; like Gecko) Chrome/53.0.2785.143 Safari/537.36,0
+http_user_agent_Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0,0
+http_user_agent_Mozilla/4.08 [en] (WinNT; I ;Nav),0
+http_user_agent_Microsoft-Windows/10.0 UPnP/1.0,0
+http_user_agent_hacking,0
+http_user_agent_sqlmap/1.2#stable (http://sqlmap.org),0
+weird_name_DNS_RR_unknown_type,0
+http_user_agent_Microsoft-WNS/10.0,0
+ssl_version_TLSv10,0
+ssl_version_TLSv13,0
+http_method_POST,0
+ssl_issuer_CN=Microsoft Secure Server CA 2011;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,0
+ssl_issuer_CN=Microsoft Update Secure Server CA 2.1;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,0
+http_method_HEAD,0
+ssl_issuer_MISSING_TOKEN,0
+ssl_cipher_TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,0
+ssl_issuer_CN=Microsoft IT TLS CA 5;OU=Microsoft IT;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,0
+ssl_cipher_TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,0
+ssl_subject_CN=settings-win.data.microsoft.com;OU=WSE;O=Microsoft;L=Redmond;ST=WA;C=US,0
+ssl_subject_MISSING_TOKEN,0
+ssl_cipher_TLS_AES_128_GCM_SHA256,0
+ssl_cipher_TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,0
+ssl_cipher_TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,0
+service_smb;gssapi,0
+ssl_subject_CN=*.events.data.microsoft.com;OU=Microsoft;O=Microsoft Corporation;L=Redmond;ST=WA;C=US,0
+service_gssapi,0
+ssl_subject_CN=*.wns.windows.com,0
+ssl_subject_CN=Mr Shepherd;OU=Security Shepherd Project;O=OWASP;L=Dublin;ST=Ireland;C=IE,0
+ssl_subject_CN=sls.update.microsoft.com;OU=DSP;O=Microsoft;L=Redmond;ST=WA;C=US,0
+ssl_issuer_CN=Mr Shepherd;OU=Security Shepherd Project;O=OWASP;L=Dublin;ST=Ireland;C=IE,0
+ssl_resumed_F,0
+http_orig_mime_types_MISSING_TOKEN,0
+weird_addl_MISSING_TOKEN,0
+weird_addl_48,0
+weird_addl_46,0
+ssl_established_T,0
+ssl_established_F,0
+http_orig_mime_types_application/soap+xml,0
+http_orig_mime_types_application/xml,0
