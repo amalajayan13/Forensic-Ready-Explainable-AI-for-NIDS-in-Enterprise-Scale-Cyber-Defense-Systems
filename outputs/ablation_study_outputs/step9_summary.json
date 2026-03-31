@@ -1,31 +1,37 @@
 {
-  "full_model_test_macro_f1": 0.9890575541806188,
-  "full_model_test_accuracy": 0.9903133000765434,
+  "ablation_model": "lightgbm",
+  "full_model_test_macro_f1": 0.9906964565207653,
+  "full_model_test_accuracy": 0.9917913796288964,
   "scenarios": [
+    {
+      "scenario": "remove_connection_state",
+      "delta_test_acc": 0.00010557711088243771,
+      "delta_test_f1_macro": 9.56416589921183e-05
+    },
     {
       "scenario": "full_features",
       "delta_test_acc": 0.0,
       "delta_test_f1_macro": 0.0
     },
     {
-      "scenario": "remove_conn_state",
-      "delta_test_acc": -0.0006070683875735172,
-      "delta_test_f1_macro": -0.0006920517983860508
+      "scenario": "remove_query_features",
+      "delta_test_acc": -0.0007654340538970628,
+      "delta_test_f1_macro": -0.0004906521820117193
+    },
+    {
+      "scenario": "remove_transport_service_context",
+      "delta_test_acc": -0.009845065589780044,
+      "delta_test_f1_macro": -0.012831567003021238
     },
     {
       "scenario": "remove_volume_features",
-      "delta_test_acc": -0.011719059307942037,
-      "delta_test_f1_macro": -0.012812888328942007
-    },
-    {
-      "scenario": "remove_service_context",
-      "delta_test_acc": -0.011375933697574392,
-      "delta_test_f1_macro": -0.014819501117538048
+      "delta_test_acc": -0.0124844933618391,
+      "delta_test_f1_macro": -0.013657447396974831
     },
     {
       "scenario": "remove_core_top_features",
-      "delta_test_acc": -0.20571700055427977,
-      "delta_test_f1_macro": -0.25202421974005884
+      "delta_test_acc": -0.207247868662074,
+      "delta_test_f1_macro": -0.253791997380454
     }
   ],
   "plot_files": [
