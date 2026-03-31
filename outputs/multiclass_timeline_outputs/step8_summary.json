@@ -1,77 +1,77 @@
 {
-  "case_id": "CASE-20260312-195546",
+  "case_id": "CASE-20260330-153425-DIVERSIFIED",
+  "timeline_evidence_log": "forensic_outputs_multiclass\\CASE-20260330-153425-DIVERSIFIED_evidence_multiclass.jsonl",
   "logged_alerts": 500,
   "timeline_windows": 20,
   "classes_present": [
     "backdoor",
-    "ddos",
     "dos",
     "injection",
     "password",
     "ransomware",
-    "scanning",
-    "xss"
+    "scanning"
   ],
+  "timeline_type": "sequence_based_forensic_timeline",
   "top_transition_edges": [
-    {
-      "from_class": "dos",
-      "to_class": "injection",
-      "count": 17
-    },
     {
       "from_class": "scanning",
       "to_class": "scanning",
-      "count": 14
+      "count": 140
+    },
+    {
+      "from_class": "backdoor",
+      "to_class": "backdoor",
+      "count": 81
     },
     {
       "from_class": "dos",
-      "to_class": "scanning",
-      "count": 14
+      "to_class": "dos",
+      "count": 77
     },
     {
       "from_class": "ransomware",
-      "to_class": "dos",
-      "count": 12
+      "to_class": "ransomware",
+      "count": 70
     },
     {
-      "from_class": "injection",
-      "to_class": "ddos",
-      "count": 12
-    },
-    {
-      "from_class": "ddos",
-      "to_class": "ddos",
-      "count": 12
+      "from_class": "password",
+      "to_class": "password",
+      "count": 69
     },
     {
       "from_class": "scanning",
       "to_class": "password",
-      "count": 11
+      "count": 13
     },
     {
-      "from_class": "scanning",
-      "to_class": "dos",
+      "from_class": "password",
+      "to_class": "scanning",
+      "count": 13
+    },
+    {
+      "from_class": "injection",
+      "to_class": "injection",
       "count": 11
     },
     {
       "from_class": "dos",
-      "to_class": "dos",
-      "count": 11
+      "to_class": "scanning",
+      "count": 5
     },
     {
-      "from_class": "ddos",
-      "to_class": "backdoor",
-      "count": 11
+      "from_class": "scanning",
+      "to_class": "dos",
+      "count": 5
     }
   ],
   "plot_files": [
-    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_class_activity.png",
-    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_class_activity.pdf",
-    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_stacked_class_activity.png",
-    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_stacked_class_activity.pdf",
-    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_cumulative_alerts.png",
-    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_cumulative_alerts.pdf",
-    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_class_transition_graph.png",
-    "multiclass_timeline_outputs\\CASE-20260312-195546_timeline_class_transition_graph.pdf"
+    "multiclass_timeline_outputs\\CASE-20260330-153425-DIVERSIFIED_timeline_class_activity.png",
+    "multiclass_timeline_outputs\\CASE-20260330-153425-DIVERSIFIED_timeline_class_activity.pdf",
+    "multiclass_timeline_outputs\\CASE-20260330-153425-DIVERSIFIED_timeline_stacked_class_activity.png",
+    "multiclass_timeline_outputs\\CASE-20260330-153425-DIVERSIFIED_timeline_stacked_class_activity.pdf",
+    "multiclass_timeline_outputs\\CASE-20260330-153425-DIVERSIFIED_timeline_cumulative_alerts.png",
+    "multiclass_timeline_outputs\\CASE-20260330-153425-DIVERSIFIED_timeline_cumulative_alerts.pdf",
+    "multiclass_timeline_outputs\\CASE-20260330-153425-DIVERSIFIED_timeline_class_transition_graph.png",
+    "multiclass_timeline_outputs\\CASE-20260330-153425-DIVERSIFIED_timeline_class_transition_graph.pdf"
   ]
 }

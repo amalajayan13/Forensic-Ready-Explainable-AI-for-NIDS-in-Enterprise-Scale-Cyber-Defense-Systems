@@ -1,9 +1,7 @@
 class_name,peak_window,peak_count
-ransomware,8,7
-scanning,11,7
-ddos,13,7
-backdoor,15,7
-password,0,6
-dos,4,6
-injection,19,6
-xss,4,4
+backdoor,1,25
+ransomware,4,25
+dos,11,25
+scanning,15,25
+password,9,23
+injection,19,14
