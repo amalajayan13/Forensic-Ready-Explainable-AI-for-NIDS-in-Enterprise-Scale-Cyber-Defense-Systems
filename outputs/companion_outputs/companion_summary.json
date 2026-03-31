@@ -1,0 +1,47 @@
+{
+  "all_classes_shape": [
+    190474,
+    44
+  ],
+  "all_classes_label_mapping": {
+    "backdoor": 0,
+    "ddos": 1,
+    "dos": 2,
+    "injection": 3,
+    "mitm": 4,
+    "normal": 5,
+    "password": 6,
+    "ransomware": 7,
+    "scanning": 8,
+    "xss": 9
+  },
+  "all_classes_class_weights": {
+    "0": 1.01797872908984,
+    "1": 0.9527034462061722,
+    "2": 1.0029170176916598,
+    "3": 0.9540873572430375,
+    "4": 18.297214217098944,
+    "5": 0.4530780209324453,
+    "6": 0.9590352953023513,
+    "7": 1.2926637258228708,
+    "8": 0.95237,
+    "9": 1.2583338838607385
+  },
+  "group_column": "src_ip",
+  "n_unique_groups": 51,
+  "grouped_train_shape": [
+    98008,
+    40
+  ],
+  "grouped_val_shape": [
+    84019,
+    40
+  ],
+  "grouped_test_shape": [
+    7406,
+    40
+  ],
+  "train_val_group_overlap": 0,
+  "train_test_group_overlap": 0,
+  "val_test_group_overlap": 0
+}
