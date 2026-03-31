@@ -1,10 +1,10 @@
 {
   "dataset_path": "../datasets/ton-iot-train_test_network.csv",
-  "loaded_at_utc": "2026-03-12T19:20:07.866136Z",
+  "loaded_at_utc": "2026-03-30T12:09:32.553563Z",
   "rows": 211043,
   "columns": 44,
   "memory_mb": 350.2364,
-  "load_time_seconds": 0.6744,
+  "load_time_seconds": 0.9413,
   "duplicate_rows": 20569,
   "duplicate_percent": 9.7464,
   "numeric_columns": 17,
