@@ -1,0 +1,77 @@
+{
+  "seeds": [
+    7,
+    21,
+    42,
+    84,
+    168
+  ],
+  "multiclass_summary": [
+    {
+      "acc_mean": 0.9917544276400875,
+      "acc_std": 8.872561202508669e-05,
+      "f1_macro_mean": 0.9906405939682743,
+      "f1_macro_std": 9.702124495295166e-05,
+      "f1_weighted_mean": 0.9917615700307643,
+      "f1_weighted_std": 8.884744698449267e-05,
+      "prec_macro_mean": 0.9903494980971785,
+      "prec_macro_std": 9.565556563333283e-05,
+      "rec_macro_mean": 0.9909877463298432,
+      "rec_macro_std": 0.00010101937383268038,
+      "roc_auc_ovr_macro_mean": 0.9999165715869831,
+      "roc_auc_ovr_macro_std": 1.2778458685910382e-06,
+      "fit_s_mean": 8.936970059992746,
+      "fit_s_std": 1.4691800545212637
+    }
+  ],
+  "binary_summary": [
+    {
+      "scenario": [
+        "95_5"
+      ],
+      "acc_mean": 0.9979157427937917,
+      "acc_std": 0.00012761490502461925,
+      "f1_mean": 0.9815220797780562,
+      "f1_std": 0.0011199714114973433,
+      "precision_mean": 0.9650190690352491,
+      "precision_std": 0.0016855029474852476,
+      "recall_tpr_mean": 0.9985999999999999,
+      "recall_tpr_std": 0.0005477225575051665,
+      "fpr_mean": 0.002124413145539906,
+      "fpr_std": 0.00010497971725351117,
+      "roc_auc_mean": 0.9999830281690141,
+      "roc_auc_std": 1.0443701280246217e-06,
+      "pr_auc_mean": 0.9997288110796007,
+      "pr_auc_std": 1.6545265862269006e-05,
+      "fit_s_mean": 0.8704735599923878,
+      "fit_s_std": 0.03388370246904568
+    },
+    {
+      "scenario": [
+        "99_1"
+      ],
+      "acc_mean": 0.9978422273781902,
+      "acc_std": 0.00010376185510439983,
+      "f1_mean": 0.9145344217373456,
+      "f1_std": 0.003759637586924765,
+      "precision_mean": 0.84612760175986,
+      "precision_std": 0.0064370971583870675,
+      "recall_tpr_mean": 0.9949999999999999,
+      "recall_tpr_std": 1.2412670766236366e-16,
+      "fpr_mean": 0.002124413145539906,
+      "fpr_std": 0.00010497971725351117,
+      "roc_auc_mean": 0.9999498826291079,
+      "roc_auc_std": 3.073291308187643e-06,
+      "pr_auc_mean": 0.9972095239295353,
+      "pr_auc_std": 0.00017098953809365606,
+      "fit_s_mean": 0.8704735599923878,
+      "fit_s_std": 0.03388370246904568
+    }
+  ],
+  "plot_files": [
+    "multiseed_stability_outputs\\multiclass_macro_f1_by_seed.png",
+    "multiseed_stability_outputs\\multiclass_macro_f1_by_seed.pdf",
+    "multiseed_stability_outputs\\binary_pr_auc_by_seed.png",
+    "multiseed_stability_outputs\\binary_pr_auc_by_seed.pdf"
+  ]
+}
