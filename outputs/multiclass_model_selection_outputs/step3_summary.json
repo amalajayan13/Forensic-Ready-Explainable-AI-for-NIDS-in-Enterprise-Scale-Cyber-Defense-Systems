@@ -11,7 +11,7 @@
     "then highest validation OVR macro ROC-AUC",
     "then lowest latency"
   ],
-  "refit_time_seconds": 19.586929899996903,
+  "refit_time_seconds": 23.48819880001247,
   "train_shape": [
     113659,
     40

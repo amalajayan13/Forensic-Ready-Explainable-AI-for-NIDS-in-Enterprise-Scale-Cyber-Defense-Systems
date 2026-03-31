@@ -1,0 +1,22 @@
+{
+  "lightgbm_metrics": {
+    "val_acc": 0.9912370997967641,
+    "val_f1_macro": 0.9901999096609274,
+    "val_f1_weighted": 0.9912393102102045,
+    "val_prec_macro": 0.9898839460589013,
+    "val_rec_macro": 0.9905469197442408,
+    "val_roc_auc_ovr_macro": 0.9999067386975786,
+    "val_roc_auc_ovr_weighted": 0.9999165161392376,
+    "fit_s": 18.801657299976796,
+    "pred_s": 1.4233647999935783,
+    "pred_ms_per_sample": 0.037568685828742794
+  },
+  "current_best_model": "lightgbm",
+  "models_in_extended_table": [
+    "lightgbm",
+    "xgboost",
+    "rf",
+    "extratrees",
+    "logreg"
+  ]
+}
